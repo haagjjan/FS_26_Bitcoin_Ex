@@ -2,3 +2,4 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+docs/problem_sheet.pdf
