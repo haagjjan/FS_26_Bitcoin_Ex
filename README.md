@@ -5,6 +5,9 @@ Reusable Python toolkit for the Bitcoin and Blockchain lecture exercises.
 The original problem sheet is stored in `docs/Problem Set 2026-1.pdf`.
 The Markdown files in `exercises/` are the source of truth for the tasks.
 
+## Python version
+Requires Python 3.10+
+
 ## Structure
 
 - `docs/`: local reference material
@@ -26,6 +29,14 @@ Run tests:
 ```bash
 PYTHONPATH=src pytest
 ```
+
+## Exercise Mapping
+| Problem | Topic | CLI command |
+|---|---|---|
+| 1 | Number systems | `cli number ...` |
+| 2 | Substitution cipher | `cli cipher ...` |
+| 3 | RSA | `cli rsa ...` |
+| 4 | Bitcoin transaction data | `cli bitcoin ...` |
 
 ## CLI Examples
 
@@ -78,3 +89,9 @@ PYTHONPATH=src python -m cli bitcoin inspect-json path/to/transaction.json --out
 The offline parser can count inputs/outputs, inspect standard P2PKH outputs,
 extract `pubKeyHash`, detect OP_RETURN outputs, and decode readable OP_RETURN
 payloads.
+
+
+## Troubleshooting:
+Common Issues might be fixed with:
+- export PYTHONPATH=src
+- or test wether pytest is missing
