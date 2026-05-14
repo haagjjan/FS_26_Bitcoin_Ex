@@ -5,3 +5,6 @@ __pycache__/
 docs/problem_sheet.pdf
 outputs/*
 !outputs/.gitkeep
+
+# All local PDFs
+docs/*.pdf
