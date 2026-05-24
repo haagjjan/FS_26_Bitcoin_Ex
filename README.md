@@ -54,7 +54,7 @@ Problem 2, substitution cipher:
 ```bash
 PYTHONPATH=src python -m cli cipher frequencies --limit 5
 PYTHONPATH=src python -m cli cipher frequencies --chart outputs/cipher_frequencies.png
-PYTHONPATH=src python -m cli cipher decrypt --mapping "L=T,N=O,C=K"
+PYTHONPATH=src python -m cli cipher decrypt --mapping "P=E,L=T,B=A, "
 PYTHONPATH=src python -m cli cipher exercise
 ```
 
